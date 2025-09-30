@@ -11,7 +11,7 @@ ageButtons.forEach(btn => {
     const selected = btn.dataset.age;
     if (selected === correctAge) {
       agePopup.innerHTML = `
-        <center><img src="https://i.pinimg.com/736x/47/c2/49/47c2493fecd4a231eddc88b69991cc27.jpg" alt="Congrats" style="width: 140px;"/></center>
+        <center><img src="./img/01.jpeg" alt="Congrats" style="width: 140px;"/></center>
         <h2>Giỏi! Trung thực 😎</h2>
         <p>Hỏi chơi cho zui thôi bà 😏</p>
         <button class="close-btn" onclick="agePopup.classList.remove('show')">Zui zẻ không quạo</button>
