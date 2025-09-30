@@ -133,10 +133,13 @@ const musicBtn = document.getElementById("music-btn");
   const closePopupBtn = document.getElementById("close-popup-btn");
 
   openGiftBtn.addEventListener("click", openPopupAndFireworks);
+  
+  // ----- CODE ĐÃ SỬA Ở ĐÂY -----
   closePopupBtn.addEventListener("click", () => {
-    popup.classList.remove("show");
-    stopFireworks();
+    // Dòng dưới đây sẽ chuyển hướng trang web
+    window.location.href = 'https://taoanhdep.com/love/?b=eyJ0IjpbIk5n4buNYyBUaGFuaCIsIlNpbmggbmjhuq10IiwiVnVpIHbhursiXSwiYSI6ImhnZWRhdCJ9';
   });
+  // -----------------------------
 
   function openPopupAndFireworks() {
     popup.classList.add("show");
@@ -334,10 +337,4 @@ exitBtn.addEventListener("mouseover", () => {
     exitBtn.style.top = `${y}px`;
     moveCount++;
   }
-});
-
-closePopupBtn.addEventListener("click", () => {
-  popup.classList.remove("show");
-  stopFireworks();
-  moveCount = 0; 
 });
