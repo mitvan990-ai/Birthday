@@ -73,9 +73,9 @@ const musicBtn = document.getElementById("music-btn");
 
   const messages = [
     "Sinh nhật vui vẻ nhé, quý lắm mới chúc á nha :)) 💝🎂.",
-    "Mong sao tuổi mới c sẽ thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
+    "Mong sao tuổi mới em sẽ thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
     "Chúc sao cho luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
-    "Thêm một tuổi mới, chúc sao cho c luôn vui vẻ bên bạn bè, gia đình và người c luôn yêu thương 🤗💞.",
+    "Thêm một tuổi mới, chúc sao cho em luôn vui vẻ bên bạn bè, gia đình và người em luôn yêu thương 🤗💞.",
     "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhé! ❤️🎈"
   ];
   const typingTextElem = document.getElementById("typing-text");
