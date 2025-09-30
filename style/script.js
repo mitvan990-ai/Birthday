@@ -1,4 +1,4 @@
-Const agePopup = document.getElementById("guess-age-popup");
+const agePopup = document.getElementById("guess-age-popup");
 const ageButtons = document.querySelectorAll(".age-btn");
 const correctAge = "20";
 
